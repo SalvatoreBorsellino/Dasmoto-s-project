@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+body {
+  background-image: url("images/pattern1.jpeg");
+  margin: 0 auto;
+}
+
+header h1 {
+  background-color: #6f5b3bc3;
+  font-size: 100px;
+  font-weight: bold;
+  color: rgb(240, 230, 140);
+  margin: 10px 30px auto;
+  text-align: center;
+  border: 1px groove khaki;
+  border-radius: 15px;
+}
+div.brushes {
+  position: relative;
+  width: fit-content;
+  height: 400px;
+  margin: 70px auto auto 100px;
+}
+
+.brushes h2.brushes-title {
+  color: white;
+  background-color: mediumspringgreen;
+  margin: 30px auto auto;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+  font-size: 35px;
+  border: 1px solid white;
+  border-radius: 15px;
+  position: absolute;
+  top: -70px;
+  left: -70px;
+  z-index: 2;
+}
+
+.brushes img {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.brushes img:hover {
+  border: 2px solid white;
+}
+
+.brushes article {
+  background-color: white;
+  display: inline-block;
+  margin: 0 150px auto 10px;
+  padding: 20px auto;
+  opacity: 0.7;
+  border-radius: 15px;
+  position: relative;
+  bottom: 310px;
+  z-index: 0;
+}
+
+.brushes article h2 {
+  display: inline-block;
+  margin: 10px auto auto 310px;
+  padding-top: 10px;
+  opacity: 1;
+  font-size: 35px;
+}
+
+.brushes article p {
+  display: inline-block;
+  margin: 40px auto 50px 310px;
+  padding-bottom: 20px;
+  opacity: 1;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.brushes article a {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Helvetica;
+  position: relative;
+  left: 310px;
+  bottom: 20px;
+}
+
+div.frames {
+  position: relative;
+  width: fit-content;
+  height: 400px;
+  margin: 70px auto auto 100px;
+}
+
+.frames h2.frames-title {
+  color: white;
+  background-color: lightcoral;
+  margin: 30px auto auto;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+  font-size: 35px;
+  border: 1px solid white;
+  border-radius: 15px;
+  position: absolute;
+  top: -70px;
+  left: -70px;
+  z-index: 2;
+}
+
+.frames img {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.frames img:hover {
+  border: 2px solid white;
+}
+
+.frames article {
+  background-color: white;
+  display: inline-block;
+  margin: 0 150px auto 10px;
+  padding: 20px auto;
+  opacity: 0.7;
+  border-radius: 15px;
+  position: relative;
+  bottom: 310px;
+  z-index: 0;
+}
+
+.frames article h2 {
+  display: inline-block;
+  margin: 10px auto auto 310px;
+  padding-top: 10px;
+  opacity: 1;
+  font-size: 35px;
+}
+
+.frames article p {
+  display: inline-block;
+  margin: 40px auto 50px 310px;
+  padding-bottom: 20px;
+  opacity: 1;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.frames article a {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Helvetica;
+  position: relative;
+  left: 310px;
+  bottom: 20px;
+}
+
+div.paint {
+  position: relative;
+  width: fit-content;
+  height: 400px;
+  margin: 70px auto auto 100px;
+}
+
+.paint h2.paint-title {
+  color: white;
+  background-color: skyblue;
+  margin: 30px auto auto;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+  font-size: 35px;
+  border: 1px solid white;
+  border-radius: 15px;
+  position: absolute;
+  top: -70px;
+  left: -70px;
+  z-index: 2;
+}
+
+.paint img {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.paint img:hover {
+  border: 2px solid white;
+}
+
+.paint article {
+  background-color: white;
+  display: inline-block;
+  margin: 0 150px auto 10px;
+  padding: 20px auto;
+  opacity: 0.7;
+  border-radius: 15px;
+  position: relative;
+  bottom: 310px;
+  z-index: 0;
+}
+
+.paint article h2 {
+  display: inline-block;
+  margin: 10px auto auto 310px;
+  padding-top: 10px;
+  opacity: 1;
+  font-size: 35px;
+}
+
+.paint article p {
+  display: inline-block;
+  margin: 40px auto 50px 310px;
+  padding-bottom: 20px;
+  opacity: 1;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.paint article a {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Helvetica;
+  position: relative;
+  left: 310px;
+  bottom: 20px;
+}
